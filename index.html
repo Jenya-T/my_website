@@ -35,21 +35,50 @@
 			</div>
 			<img alt="portrait" src="background.jpg">
 		</section>
-			<div class="small">
-					<h1>Photography</h1>
-					<img src="photo.jpg"/>
-					<p> Every photo project require special attantion. It's much harder to express emotions and pass ideas through the picture then it is through other means. For this reason photo projects need to be carefully prepared and all the details have to be thought through.</p>				
-			</div>
-			<div class="small">
-					<h1>Videography</h1>
-					<img src="video.jpg"/>
-					<p>Video projects are great for documenting work in progress, important life events or ideas. Video reals are essential for artists and they need to be done right to  </p>
-			</div>				
-			<div class="small">
-					<h1>Web Development</h1>
-					<img src="web.jpg"/>
-					<p>Web development is a very exciting process of creating a unique product that involves element of design and programming.</p>
-			</div>
+        <style>
+            /* !!!!! read about floats */
+
+
+            /* for gallery look into
+            http://tutorialzine.com/2014/05/jquery-image-slideshow-plugin/
+
+            */
+            .center-container{max-width:1140px; width:100%; margin: 0 auto;}
+            .center-container .small{float:left;}
+            footer{
+                float:left;
+                width: 100%;
+                border-top: 10px double orange;
+                font-size: 15px;
+                height: 150px;
+                padding: 65px 0 0 0;
+                text-align: center;
+                display: block;
+                box-shadow: 10px 10px 5px #888888;
+                background: #222;
+                color: #eee;
+                margin: 50px 0 0 0;
+            }
+
+        </style>
+        <div class="center-container center">
+            <div class="small">
+                <h1>Photography</h1>
+                <img src="photo.jpg"/>
+                <p> Every photo project require special attantion. It's much harder to express emotions and pass ideas through the picture then it is through other means. For this reason photo projects need to be carefully prepared and all the details have to be thought through.</p>
+            </div>
+            <div class="small">
+                <h1>Videography</h1>
+                <img src="video.jpg"/>
+                <p>Video projects are great for documenting work in progress, important life events or ideas. Video reals are essential for artists and they need to be done right to  </p>
+            </div>
+            <div class="small">
+                <h1>Web Development</h1>
+                <img src="web.jpg"/>
+                <p>Web development is a very exciting process of creating a unique product that involves element of design and programming.</p>
+            </div>
+        </div>
+
 		<footer>
 			<p> Copyright &copy; 2014 Jane Says, LLC.<br> 
 			All Rights Reserved. </p>
