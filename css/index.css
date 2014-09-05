@@ -1,0 +1,67 @@
+/* Global */
+html, body {margin:0; padding:0; background-color: lightgrey; font-family: Ubuntu, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+
+#wrapper {padding:0; margin: 0 auto; width:100%;}
+
+/* header */
+
+header {padding:0; margin: 20px 30px; width:100%; height:130px; border: 2px solid grey; box-shadow: 10px 10px 5px #888888;}
+header .left {float:left; width:130px; height:130px;}
+header .left .hgroup h1 {padding:0; margin-left: 40px; float:left;width:100px;}
+header .left h1 a {width:100px; height:100px; text-indent: -9999px; background: url('../logoOld.png') no-repeat 0 0/100px 80px; margin-top: 0px; display: block;}
+
+header .left h3 {width:60px; height: auto; position: absolute; margin-top: 30px; margin-left:150px; color:red;}
+
+
+
+header .menu {float:right;position:center; width:60%; height: 60px; margin:0; padding-right:0;}
+header .menu ul li {display:inline-block; width: 80px; font-size: 22px; color:black; margin-right: 40px; margin-top:37px; padding:0; float:right;}
+header .menu ul li a {border-bottom: 5px solid red;text-decoration: none; color:black;}
+header .menu ul li a:hover {border-bottom: 5px solid black;}
+header .menu ul li .active {border-bottom: 5px solid black;}
+/*main content */
+
+section #main .credit {background-color: lightgray; position:center; border: 2px solid grey; box-shadow: 10px 10px 5px #888888;}
+section #main {margin:0; padding:0;width:100%; height: auto;}
+section img {position: relative; width:100%; padding:0; margin: 0 30px;}
+section a{text-decoration:none; color: white; width: 30%; margin-right:5px;}
+section .credit {float:left; margin:60px 40px; padding:0; position:absolute; z-index: 2;}
+section .credit:hover {border-bottom: 2px solid red;}
+
+
+.small {display:inline-block; margin:20px;  border: 2px solid grey;
+    border-radius: 25px; box-shadow: 10px 10px 5px #888888;}
+.small {width: 300px; height: 600px;text-align: center; padding:15px; float:top;}
+.small img, h1, p{}
+
+
+
+
+footer {color: black; float: bottom; width:100%; font-size:15px; height:60px; text-align: center; display: block; border-top: 2px solid grey; box-shadow: 10px 10px 5px #888888;}
+
+
+
+@media (max-width: 800px) {
+header .upperClass ul { margin-top:20px; }
+header .upperClass li {display:block; font-size: 20px; margin:0; padding: 0; width: 70%;float:bottom;}
+}
+
+/*
+
+@media (max-width: 900px) {
+section {margin-top:40px;}section table img {width: 200px; height:auto;}
+header .right nav ul {float:left; margin-left:0;}
+header .right {float:bottom; width:100%; margin-left: 0px; padding:0;}  
+header .left {float:left; width:100%;}
+header .left .hgroup h1 {float:left; width:30%;}
+header .left .hgroup h2 {float:right; width:60%;}
+}
+
+@media (max-width: 400px) {
+    section {margin-top:40px;}
+    header #menu ul li {font-size: 18px;}
+    header .right {float:bottom; width:100%; margin-left: 0; padding:0;}
+    }
+
+
